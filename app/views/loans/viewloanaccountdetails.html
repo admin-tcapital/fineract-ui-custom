@@ -119,7 +119,7 @@
                         </tr>
                     </table>
                     <div ng-show="loandetails.summary">
-                        <h3>{{'label.heading.currentBalance' | translate}}: {{loandetails.currency.displaySymbol}} {{loandetails.summary.totalOutstanding | number}}</h3>
+                       
                         <br>
                     <b>{{'label.heading.arrearsby' | translate}}: <span class="padded-td">{{loandetails.summary.totalOverdue | number}}<span
                                     data-ng-hide="loandetails.summary.totalOverdue>=0">{{'label.heading.notprovided' | translate}}</span></span></b>
@@ -183,7 +183,7 @@
                             <tfoot>
                             <tr>
                                 <th>{{'label.heading.total' | translate}}</th>
-                                <th>{{loandetails.summary.totalExpectedRepayment | number}}</th>
+                                <th> </th>
                                 <th>{{loandetails.summary.totalRepayment | number}}</th>
                                 <th>{{loandetails.summary.totalWaived | number}}</th>
                                 <th>{{loandetails.summary.totalWrittenOff | number}}</th>
